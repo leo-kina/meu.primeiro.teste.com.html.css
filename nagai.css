@@ -1,70 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap'); 
-    *{
-        margin: 0%;
-        padding: 0%;
-        box-sizing: border-box;
-    }
-    
-    header{
-        color: white;
-        background-color: pink;
-        padding: 2rem;
-        text-align: center;
-        font-family: "Cabin", serif;
-    }
-    body{
-        background-color: #f4f0ea;
-        color:rgb(231, 52, 82) ;
-        font-family: "Cabin", serif;
-        font-weight: 300;
-    }
-    main{
-        padding: 4rem;
-        gap: 2rem;
-        display: flex;
-        flex-direction: column;
-    }
-    section{  display: flex;
-        flex-direction: column;
-        gap: 1rem
-    }
-    input[type=radio] {
-        accent-color: #e9238d;
-        cursor: pointer;
-        
-    }
-    input[type=text]{
-        accent-color: e9238d#;
-        cursor: pointer;
-        padding: 2rem;
-        background-color: transparent;
-        border: 2px solid #e9238d ;
-        border-radius: 50px;
-        width: 50rem;
-        
-    }input[type=password]{
-        accent-color: e9238d#;
-        cursor: pointer;
-        padding: 2rem;
-        background-color: transparent;
-        border: 2px solid #e9238d ;
-        border-radius: 50px;
-        width: 50rem;}
-        input[type=date]{
-            accent-color: e9238d#;
-            cursor: pointer;
-            padding: 2rem;
-            background-color: transparent;
-            border: 2px solid #e9238d ;
-            border-radius: 50px;
-            width: 50rem;}
-    
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
-    h2{
-        color: rgb(88, 0, 15);
-    }
-    footer{
-        color: #e9238d;
-        padding: 0.5rem;
-        font-weight: 300;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: white;
+    background-color: pink;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Cabin", serif;
+}
+
+body{
+    background-color: #f4f0ea;
+    color: rgb(231, 52, 82);
+    font-family: "Cabin", serif;
+    font-weight: 300;
+}
+
+main{
+    padding: 4rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input[type=radio] {
+    accent-color: #e9238d;
+    cursor: pointer;
+}
+
+input[type=text]{
+    accent-color: #e9238d;
+    cursor: pointer;
+    padding: 2rem;
+    background-color: transparent;
+    border: 2px solid #e9238d;
+    border-radius: 50px;
+    width: 50rem;
+}
+
+input[type=password]{
+    accent-color: #e9238d;
+    cursor: pointer;
+    padding: 2rem;
+    background-color: transparent;
+    border: 2px solid #e9238d;
+    border-radius: 50px;
+    width: 50rem;
+}
+
+input[type=date]{
+    accent-color: #e9238d;
+    cursor: pointer;
+    padding: 2rem;
+    background-color: transparent;
+    border: 2px solid #e9238d;
+    border-radius: 50px;
+    width: 50rem;
+}
+
+h2{
+    color: rgb(88, 0, 15);
+}
+
+footer{
+    color: #e9238d;
+    padding: 0.5rem;
+    font-weight: 300;
+}
